@@ -15,10 +15,10 @@ body {
     --heading-font: '____', serif;
     --paragraph-font: '_____', serif;
 
-    --nav-background-color: #44BBA4;
-    --nav-link-color: #6A8D92;
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #FFFFFF;
     --nav-hover-link-color: #FFFFFF;
-    --nav-hover-background-color: #00171F;
+    --nav-hover-background-color: #FFFFFF;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
