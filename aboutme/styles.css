@@ -1,21 +1,25 @@
 body{
     text-align: center;
 }
+
 nav {
     background-color: steelblue;
     padding: 10px;
     display: flex;
     justify-content: space-around;
 }
-}
-nav a {
+
+
+a {
     color: white;
     display: block;
     padding: 20px;
 }
+
 h1 {
     color: steelblue;
 }
+
 main img {
     width: 150px;
     height: auto;
@@ -23,12 +27,15 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 p {
     padding: 0;
 }
+
 main { 
     max-width: 840px;
 }
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -38,10 +45,12 @@ aside {
     color: #333;
     text-align: center;
 }
+
 aside img {
     width: 200px;
     height: auto;
 }
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
