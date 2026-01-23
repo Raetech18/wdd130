@@ -1,12 +1,8 @@
 :root {
     --primary-color: #2f5d50;
-    /* forest green */
     --secondary-color: #fafaf7;
-    /* warm off-white background */
     --accent1-color: #2e2e2e;
-    /* charcoal text */
     --accent2-color: #f4d35e;
-    /* sun gold accent */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -116,9 +112,7 @@ section h2 {
 footer {
     border-top: 1px solid #ccc;
     padding: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: left;
 }
 
 .socialmedia a {
@@ -127,5 +121,5 @@ footer {
 
 .socialmedia img {
     width: 32px;
-    margin-left: 10px;
+    margin: 0;
 }
