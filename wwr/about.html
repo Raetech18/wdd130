@@ -4,29 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>About Us | Rae Whitewater Rafting</title>
-
     <meta name="description"
       content="Learn about Rae Whitewater Rafting, our history, guides, and passion for unforgettable rafting adventures.">
     <meta name="author" content="Nwachukwu Racheal">
-
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
-    <header>
-        <img src="images/wwr-logo.jpg" alt="Rae Whitewater Rafting site logo">
-        <nav>
+    <header class="site-header">
+        <div class="logo">
+            <img src="images/wwr-logo.jpg" alt="Rae Whitewater Rafting Logo">
+        </div>
+        <nav class="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
                 <li><a href="trips.html">Trips</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
         <div class="hero">
             <img src="images/hero.jpg" alt="Group rafting through whitewater rapids">
@@ -35,23 +33,52 @@
                 <img src="images/happy-client.jpg"
                   alt="Smiling rafting customer after river adventure">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellat quidem
-                    deleniti? Et perspiciatis, repellendus sed rerum consectetur neque libero
-                    expedita odit saepe ipsam necessitatibus aut deleniti ea, dolores eum.</p>
+                    deleniti? Et
+                    perspiciatis, repellendus sed rerum consectetur neque libero expedita odit saepe
+                    ipsam
+                    necessitatibus aut deleniti ea, dolores eum.</p>
             </article>
         </div>
-
-        <section>
-            <h2>History</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium unde maiores cum
-                nisi earum, odit dolore vero debitis, soluta repellendus officia distinctio ad
-                placeat voluptates nostrum modi ipsam, quaerat esse?</p>
+        <section class="history">
+            <h2>Our History</h2>
+            <div class="history-content">
+                <p>Rae Whitewater Rafting has been providing thrilling adventures since 2004. Our
+                    mission is to
+                    deliver unforgettable experiences for families, groups, and thrill-seekers
+                    alike. We prioritize
+                    safety, fun, and connection with nature on every trip.</p>
+                <img src="images/history.jpg" alt="Rafting history photo">
+            </div>
         </section>
-
-        <section>
+        <section class="adventures">
             <h2>Adventure Awaits You!</h2>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/adventure1.jpg"
+                      alt="A rafting group navigating whitewater rapids">
+                    <figcaption>A rafting group navigating whitewater rapids</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure2.jpg" alt="Group rafting in a red kayak">
+                    <figcaption>Group rafting in a red kayak</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure3.jpg" alt="Solo rafter navigating a river rapid">
+                    <figcaption>Solo rafter navigating a river rapid</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure4.jpg"
+                      alt="Group kayaking in an orange kayak on a sunny day">
+                    <figcaption>Group kayaking in an orange kayak on a sunny day</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventure5.jpg"
+                      alt="People rafting down a forest river in daylight">
+                    <figcaption>People rafting down a forest river in daylight</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
-
     <footer>
         <p>© 2026 Rae Whitewater Rafting | Nwachukwu Racheal</p>
         <nav class="socialmedia">
@@ -60,6 +87,7 @@
             <a href="#"><img src="images/instagram.png" alt="Instagram icon"></a>
         </nav>
     </footer>
+
 </body>
 
 </html>
