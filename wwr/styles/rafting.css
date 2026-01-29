@@ -163,9 +163,7 @@ section h2 {
     margin-top: 8px;
     font-weight: bold;
     background-color: rgba(46, 46, 46, 0.8);
-    /* dark overlay */
-    color: #f4d35e;
-    /* yellow text stays */
+    color: #ffffff;
     padding: 4px;
     border-radius: 4px;
 }
