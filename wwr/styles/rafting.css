@@ -62,6 +62,7 @@ footer {
     font-weight: bold;
 }
 
+/* Use accent2 color for hover/active states */
 .main-nav a.active,
 .main-nav a:hover {
     color: var(--accent2-color);
@@ -99,12 +100,16 @@ footer {
     background-color: rgba(46, 46, 46, 0.7);
     color: var(--secondary-color);
     padding: 16px;
+    overflow: hidden;
+    /* ensures floated image doesn’t break layout */
 }
 
 .hero article img {
     float: right;
+    /* puts image on the right */
     width: 125px;
     margin-left: 16px;
+    margin-bottom: 8px;
 }
 
 /* Headings */
@@ -158,6 +163,8 @@ section h2 {
 .adventure-gallery figcaption {
     margin-top: 8px;
     font-weight: bold;
+    color: var(--accent2-color);
+    /* using accent2 color somewhere */
 }
 
 /* Footer */
