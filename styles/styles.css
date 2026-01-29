@@ -9,26 +9,48 @@
     --heading-text-color: #333;
     --heading-font: montserrat, helvetica, sans-serif;
     --padding: 1rem;
-    --border: 1px solid rgb (0, 0, 0 / 0.2);
+    --border: 1px solid rgb(0 0 0 / 0.2);
 }
 
 nav {
     background-color: var(--heading-background-color);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
 }
 
 main {
     max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 h1 {
     color: var(--heading-background-color);
+    border-bottom: 2px solid #000;
+}
+
+header,
+footer,
+.grid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 main img {
@@ -49,6 +71,9 @@ aside {
     background-color: #eee;
     color: var(--heading-text-color);
     text-align: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -64,7 +89,6 @@ p {
     padding: 0;
 }
 
-/* Class Selectors */
 .box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
