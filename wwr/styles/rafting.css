@@ -87,9 +87,9 @@ footer {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgba(46, 46, 46, 0.7);
+    background-color: rgba(46, 46, 46, 0.9);
     /* overlay */
-    color: var(--secondary-color);
+    color: #ffffff;
 }
 
 .hero article {
@@ -163,8 +163,7 @@ section h2 {
 .adventure-gallery figcaption {
     margin-top: 8px;
     font-weight: bold;
-    color: var(--accent2-color);
-    /* using accent2 color somewhere */
+    color: #2e2e2e;
 }
 
 /* Footer */
