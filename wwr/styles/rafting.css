@@ -87,8 +87,7 @@ footer {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgba(46, 46, 46, 0.9);
-    /* overlay */
+    background-color: rgba(46, 46, 46, 0.85);
     color: #ffffff;
 }
 
@@ -163,7 +162,12 @@ section h2 {
 .adventure-gallery figcaption {
     margin-top: 8px;
     font-weight: bold;
-    color: #2e2e2e;
+    background-color: rgba(46, 46, 46, 0.8);
+    /* dark overlay */
+    color: #f4d35e;
+    /* yellow text stays */
+    padding: 4px;
+    border-radius: 4px;
 }
 
 /* Footer */
