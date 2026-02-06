@@ -268,10 +268,10 @@ article {
     flex-direction: column;
     gap: 0.75rem;
 }
+
 .contact-form label {
     font-weight: bold;
 }
-
 
 fieldset {
     border: 1px solid #ccc;
@@ -282,6 +282,7 @@ fieldset label {
     display: block;
     margin-bottom: 0.5rem;
 }
+
 .submit-btn {
     background-color: #0066cc;
     color: white;
@@ -293,4 +294,13 @@ fieldset label {
 
 .submit-btn:hover {
     background-color: #004c99;
+}
+
+.map {
+    border: 0;
+    /* Remove iframe border */
+    width: 100%;
+    /* Make it responsive */
+    height: 450px;
+    /* Fixed height (matches original) */
 }
